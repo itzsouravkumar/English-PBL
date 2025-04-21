@@ -66,8 +66,8 @@ export default async function TeamPage({ params }: { params: { id: string } }) {
                     <li
                       key={index}
                       className={`px-3 py-1 rounded-full text-sm font-medium ${isLeader
-                          ? "bg-yellow-100 text-yellow-800 border border-yellow-300"
-                          : "bg-purple-100 text-purple-700"
+                        ? "bg-yellow-100 text-yellow-800 border border-yellow-300"
+                        : "bg-purple-100 text-purple-700"
                         }`}
                     >
                       {member}
@@ -101,7 +101,7 @@ export default async function TeamPage({ params }: { params: { id: string } }) {
 
       <footer className="bg-gray-50 border-t border-gray-100 py-8">
         <div className="container mx-auto px-4 text-center text-gray-600">
-          <p>© {new Date().getFullYear()} Team Portfolio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Team english. All rights reserved.</p>
         </div>
       </footer>
     </div>

@@ -13,20 +13,20 @@ export const metadata: Metadata = {
     title: "English - Project Showcase",
     description:
       "Explore how our teams connected English literature with Sustainable development goals. Each project presents creative interpretations of five selected English books, linked to specific SDGs or DDG themes — through presentations and videos, all viewable directly in your browser.",
-    url: "https://team-portfolio.vercel.app",
-    siteName: "Team Portfolio",
+    url: "https://team-english.vercel.app",
+    siteName: "Team english",
     images: [
       {
-        url: "https://team-portfolio.vercel.app/og-image.jpg",
+        url: "https://team-english.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Team Portfolio",
+        alt: "Team english",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-    generator: 'Sourav'
+  generator: 'Sourav'
 }
 
 export default function RootLayout({
